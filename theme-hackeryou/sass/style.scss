@@ -1,0 +1,318 @@
+/*
+* Theme Name: HackerYou Starter Theme
+* Theme URI: http://hackeryou.com;
+* Description: Starter theme for building any website. Created by HackerYou. * Rename this to your own theme page.
+* Version: 1.0
+* Author: HackerYou
+* Author URI: http://hackeryou.com
+*/
+
+@import 'normalize';
+@import 'typography';
+@import 'navigation';
+@import 'sidebar';
+@import 'comments';
+@import 'footer';
+/*
+====================================
+Default Styling
+====================================
+*/
+
+.wrapper {
+	max-width: 1100px;
+	width: 90%;
+	padding: 0;
+	margin:0 auto;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+body {
+	color: #333;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	img {
+		width: 30%;
+		margin: 0 auto;
+	}
+}
+
+.content {
+	float: left;
+	width: 65%;
+	margin-right: 5%;
+}
+
+.full {
+	width: 100%;
+}
+
+.hero {
+	background-image:url('images/hero.jpg');
+	height: 100vh;
+	background-position: left center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.chevron {
+	color: white;
+	font-size: 24px;
+	padding-top: 5%;
+}
+
+.about {
+	height:370px;
+	margin-bottom: 8%;
+	margin-top: 3%;
+	.about-title {
+		width: 350px;
+		padding-left: 75px;
+	}
+}
+
+.line {
+	height: 2px;
+	background: #F1C40F;
+	width: 35%;
+}
+
+.left-content {
+	margin: 5% 2% 0 0;
+	width: 25%;
+	float: left;
+}
+.right-content {
+	margin: 7% 0 5% 3%;
+	width: 70%;
+	float: left;
+	p {
+		font-family: 'Montserrat', sans-serif;
+		letter-spacing: 1px;
+		color: #1F2027;
+	}
+}
+
+.me img{
+	border-radius: 50%;
+	// width: 100%;
+}
+
+// SKILLS
+
+.skills-title {
+	letter-spacing: 2px;
+	.line {
+	height: 2px;
+	background: #F1C40F;
+	width: 30%;
+	margin: 0 auto;
+	}
+}
+.skills {
+	background-color: #1F2027;
+	height: 350px;
+	.skills-left {
+		padding-top: 12%;
+		width: 23%;
+		float:left;
+		text-align: center;
+		h3{
+			color: white;
+			padding-bottom: 1%;
+		}
+	}
+	.skills-right {
+		padding-top: 5%;
+		display: flex;
+		flex-wrap: wrap;
+		// width: 65%;
+		color: white;
+		padding-left: 15%;
+	}
+}
+
+.circle {
+	height: 60px;
+	width: 60px;
+	background: #3c3d44;
+	position: relative;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+	.devicons {
+		font-size: 38px;
+		padding: 5%;
+		display: block;
+		color: #F1C40F;
+	}
+}
+
+// PORTFOLIO
+
+.port-title {
+		width: 250px;
+		float: left;
+		padding: 2% 0 2% 7%;
+		.line {
+			width: 80px;
+		}
+	}
+
+.left-port {
+	clear: both;
+	float: left;
+	width: 50%;
+	h1 {
+		color: #F1C40F;
+		font-size: 38px;
+	}
+	h2 {
+		font-size: 16px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: #585858;
+	}
+	p{
+		color: #6E6E6E;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+}
+
+.right-port {
+	float: left;
+	width: 50%;
+	h1 {
+		color: #F1C40F;
+		font-size: 38px;
+	}
+	h2 {
+		font-size: 16px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: #585858;
+	}
+	p{
+		color: #6E6E6E;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+}
+
+.port-text {
+	padding:10%;
+	text-align: center;
+}
+
+.viewit {
+	padding: 5px 15px 5px 15px;
+	background: #F1C40F;
+	border: none;
+	a {
+		color: #1F2027;
+	}
+}
+
+// CONTACT
+
+.contact {
+	background-image: url('images/contact.jpg');
+	height: 600px;
+}
+
+.contact-title {
+	text-align: center;
+	.line {
+		margin: 0 auto;
+		margin-bottom: 5%;
+		width: 150px;
+		background: white;
+	}
+	h3 {
+		letter-spacing: 2px;
+		color: white;
+		margin-top: 0;
+		padding: 3% 10% 1% 10%;
+	}
+	h4 {
+		color: lightgrey;
+		letter-spacing: 1px;
+		font-size: 12px;
+		padding: 0 25% 0 25%;
+		line-height: 16px;
+	}
+	
+}
+
+form {
+	text-align: center;
+	color: white;
+	input[type=text],
+	input[type=email] {
+		background: transparent;
+		border: none;
+		border-bottom: 1px solid grey;
+		height: 35px;
+		width: 500px;
+		color: white;
+		outline: #1F2027;
+
+	}
+
+
+	p {
+		font-size: 12px;
+	}
+}
+
+textarea {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid grey;
+	width: 500px;
+	color: white;
+	outline: #1F2027;
+	height: 100px;
+}
+
+.emailyellow {
+	color: #F1C40F;
+	font-family: 'Arvo', serif;
+}
+
+input[type=submit]{
+	background: #F1C40F;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
+	border: none;
+	padding: 5px 20px 5px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

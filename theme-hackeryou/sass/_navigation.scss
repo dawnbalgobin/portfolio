@@ -1,0 +1,24 @@
+ul.menu {
+	margin: 0;
+	padding: 0;
+	li {
+		display: inline;
+		margin-right: 10px;
+		font-size: 14px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		a {
+			color: #333;
+			padding: 10px;
+			color: white;
+		}
+	}
+	li:nth-child(1):after,
+	li:nth-child(2):after,
+	li:nth-child(3):after {
+		content:"•";
+		color: white;
+		padding-left: 25px;
+	}
+
+}

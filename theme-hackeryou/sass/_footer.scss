@@ -1,0 +1,39 @@
+footer {
+	clear: both;
+	padding: 15px;
+}
+
+.footer-left{
+	// padding-left: 5%;
+	display: inline;
+	width: 40%;
+	.copyright {
+		font-size: 11px;
+		text-align: left;
+	}
+	p {
+		display: inline;
+	}
+}
+
+.footer-right {
+	// padding-right: 5%;
+	float: right;
+	width: 40%;
+	.social {
+		height: 25px;
+		width: 25px;
+		background: #F1C40F;
+		float: right;
+		margin: 2px;
+		.fa {
+			color: white;
+			// display: flex;
+			display: block;
+			text-align: center;
+			// justify-content: center;
+			// align-items:center;
+			padding: 15%;
+		}
+	}
+}
