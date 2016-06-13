@@ -17,6 +17,9 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-family: 'Montserrat', sans-serif;
+	 @media(max-width: 565px) {
+		margin-top: 2px;
+		}
 }
 
 h2 {

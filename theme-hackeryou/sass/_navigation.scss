@@ -21,4 +21,12 @@ ul.menu {
 		padding-left: 25px;
 	}
 
+	@media(max-width: 565px) {
+		ul.menu,
+		li
+		 {
+		 display: none;
+		}
+	}
 }
+
